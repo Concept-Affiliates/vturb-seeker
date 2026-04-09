@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Vturb Seeker",
+  "description": "Bypass fake progress bars on Converteai/Vturb video sales letters — seek to any point.",
+  "version": "1.0.0",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "world": "MAIN"
+    }
+  ],
+  "icons": {
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
