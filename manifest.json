@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Vturb Seeker",
-  "description": "Bypass fake progress bars on Converteai/Vturb video sales letters — seek to any point.",
-  "version": "1.0.0",
+  "description": "Seek, speed-control, and download CC transcripts on Vturb/Converteai and Vidalytics video sales letters.",
+  "version": "1.1.0",
   "permissions": [],
   "content_scripts": [
     {
